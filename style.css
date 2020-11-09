@@ -169,10 +169,11 @@ main {
   text-align: center;
 }
 
-.tour img {
+.tour-img {
   height: 100%;
   width: 100%;
   object-fit: contain;
+  clip-path: polygon(0 1%, 100% 0%, 100% 90%, 0% 100%);
 }
 
 .tour ul {
