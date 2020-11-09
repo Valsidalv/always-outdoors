@@ -138,6 +138,7 @@ main {
   align-items: center;
   transform: skewY(5deg);
   margin-top: 100px;
+  width: 100%;
 }
 
 .travel {
@@ -148,7 +149,6 @@ main {
   padding: 15px;
   text-align: center;
   z-index: 2;
-  margin-right: 50px;  
 }
 
 /* TOURS */
