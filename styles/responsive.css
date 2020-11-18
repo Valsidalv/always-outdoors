@@ -1,0 +1,144 @@
+/* MOBILE DEVICE */
+
+/* @media screen and (max-width: 1000px) {
+    .travel {
+      margin-right: 5px;  
+    }
+  } */
+  
+  @media screen and (max-width: 850px) {
+    /* NAVIGATION */
+  
+    nav {
+      flex-direction: column;
+    }
+  
+    .nav-ul {
+      display: none;
+    }
+
+    .nav-ul,
+    .nav-ul li {
+      float: none;
+    }
+  
+    .nav-ul li:last-child {
+      float: none;
+    }
+
+    .nav-ul a {
+      padding: 10px !important;
+    }
+
+    .search-form {
+      display: none;
+    }
+
+    .search-input {
+      border: 1px solid;
+      border-radius: 20px;
+      margin-top: 15px;
+    }
+   
+    .toggle-menu {
+      display: flex;
+    }
+
+    .show-links {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .show-search {
+      display: inline-block;
+    }
+
+    /* MAIN CONTENT */
+    .container {
+      width: 100%;
+    }
+  
+    .connect {
+      flex-direction: column;
+      margin-bottom: 30px !important;
+    }  
+        
+    .connect-child {
+      flex-direction: column;
+    }
+  
+    .connect-child img {
+      margin-top: 30px !important;
+      margin-left: 0;
+    }
+  
+    .travels {
+      display: block;
+      height: auto !important;
+      transform: skewY(0) !important;
+      margin-top: 20px !important;
+    }    
+    
+    .travels-title {
+      transform: skewY(0) !important;
+      bottom: auto;
+      top: 70px;
+    }
+        
+    .travels-inner {
+      display: block;
+      transform: skewY(0) !important;
+      margin-top: 130px;
+      flex-direction: column;
+    }
+      
+    .travel {
+      display: block;
+      min-width: 100%;
+    }
+  
+    .travel div, .travel h4, .travel img {
+      padding-right: 25px;
+    }
+  
+    .popular {
+      text-align: center;
+      margin: 40px 0;    
+    }
+  
+    .tours {
+      display: block;
+      flex-direction: column;      
+    }
+  
+    .tour {
+      flex: 1;
+      min-width: 100%;
+    }
+  
+    /* FOOTER */
+    .footer {
+      display: block;
+    }
+  
+    
+    .foot-ul li {
+      text-align: center;
+      padding: 0;
+    }
+
+    .foot-ul li a{
+      display: block;
+      padding: 0;
+    }
+  
+    #inner-f2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .foot-ul2 {
+      margin-top: 10px;
+    }
+  }
